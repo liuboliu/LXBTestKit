@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LXBTestKit_Example' do
+  pod 'LXBTestKit', :path => '../'
+
+  target 'LXBTestKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
