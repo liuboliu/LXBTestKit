@@ -1,0 +1,6 @@
+framework module LXBTestKit {
+  umbrella header "LXBTestKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

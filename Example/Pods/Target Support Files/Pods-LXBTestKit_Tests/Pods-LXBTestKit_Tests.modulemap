@@ -1,0 +1,6 @@
+framework module Pods_LXBTestKit_Tests {
+  umbrella header "Pods-LXBTestKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
